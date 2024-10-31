@@ -9,7 +9,9 @@ export default async function Home({
   searchParams: Promise<{ query?: string }>; //https://nextjs.org/docs/app/api-reference/file-conventions/page#searchparams-optional
 }) {
   const query = (await searchParams).query;
-  const { data: posts } = await sanityFetch({ query: STARTUPS_QUERY }); // revalidate page for every new change
+  const params = { search: query || null };
+
+  const { data: posts } = await sanityFetch({ query: STARTUPS_QUERY, params }); // revalidate page for every new change
 
   return (
     <>
