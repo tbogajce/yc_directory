@@ -35,4 +35,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-- [Figma Design] (https://www.figma.com/design/TMGW6rLGene3cqHb4Kilz5/Pitch-Startup-App?node-id=62001-4701&node-type=frame&t=qJsX4YU37AA57W0w-0)
+[Figma Design](https://www.figma.com/design/TMGW6rLGene3cqHb4Kilz5/Pitch-Startup-App?node-id=62001-4701&node-type=frame&t=qJsX4YU37AA57W0w-0)
+[JSM Repo](https://github.com/adrianhajdin/yc_directory)
